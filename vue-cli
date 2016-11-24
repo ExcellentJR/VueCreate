@@ -1,0 +1,30 @@
+主题：vue-cli项目的创建
+1、node.js的安装
+ https://nodejs.org/en/download/
+2、vue-cli的安装
+cmd：
+  npm install -g vue-cli
+3、vue-cli项目的初始化
+cmd：
+  vue init webpack my-project  //此命令将新建vue2.x的模版，若需要1.x的则执行vue init webpack#i1.0 my-project
+  执行后将需要我们输入以下：
+  ?Project name //项目名称
+  ?Project description //项目描述
+  ?Author //项目作者
+  ?Vue build //直接enter
+  ?Use ESLint to lint your code? //f是否用eESLint来规范我们的代码，y或者n
+  ?Setup unit tests with Karma + Mocha? 
+  ?Setup e2e tests with Nightwatch? //是否设置单元测试，y或者n
+以上enter后项目创建初步完成
+4、（进入项目所在文件夹）安装依赖
+cmd：
+  （cd my-project）
+  npm install
+5、运行项目
+cmd：
+  npm run dev
+  
+  
+  
+  
+
